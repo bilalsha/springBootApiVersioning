@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
  *
  * @author : Manos Papantonakos on 19/8/2016.
  */
-@RestController
+@RestController("Analysis")
 @RequestMapping("analysis")
 @Api(value = "user", description = "Operations about users")
 public class UserController {
